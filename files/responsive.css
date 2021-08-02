@@ -1,0 +1,42 @@
+/* Tablet Layout: 768px. */
+
+@media (max-width: 768px), only screen and (max-device-width: 768px) {
+.wpm_mobile_center{  float:none; text-align:center; }
+.wpm_header{ min-height:80px; }
+.navbar-default .navbar-nav>li>a{ padding:10px 10px;  text-align: left;}
+.navbar-toggle{ margin-top:-50px;  }
+.navbar-collapse{ margin-top:20px; }
+.wpm_logo{ margin-top:15px;}
+.wpm_another_box i{ position:absolute; left:45%;}
+.navbar{ min-height: 0px; }
+
+
+.footer_some_title{ margin-bottom: 35px; }
+
+}
+
+@media (max-width: 480px), only screen and (max-device-width: 480px) {
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{ top: 45%; }
+
+}
+
+
+@media (max-width: 320px), only screen and (max-device-width: 320px) {
+
+.wpm_header{ min-height: 0px; }
+.wpm_logo{ height: 25px; }
+.navbar-toggle {
+    margin-top: -40px;
+}
+
+.wpm_slider_area .carousel-indicators{ display: none; }
+
+.wpm_slider_area h3 {
+    font-size: 28px;
+    margin-bottom: -35px;
+}
+.wpm_another_box i {left: 41%;}
+.wpm_box p{ padding: 10px; }
+
+}
